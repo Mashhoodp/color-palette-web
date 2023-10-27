@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Extraction App</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<form action = "/upload" method = "post" enctype="multipart/form-data">
+        <input type="file" id="file-input" name="file" accept="image/*"/>
+        <label for="file-input">Select Image</label>
+        <input type = "submit" id="submit" value="Upload">
+    </form>
+
+<div class="container">
+  <img id="my-img" src="data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwCgCdASqWAMgAPt1utFSopiUjIEgBEBuJaW7hdrEbQBPa9FXCDIIaqk122i4QZBDVUmu20XCDIIaqk122i4QZBDVUmu20XCDIIaqk122i4QZBDVUmu20W+gAA/v9uAAAAAAAA" alt="Uploaded Image">
+</div>
+
+<script src="../static/script.js"></script>
+
+
+</body>
+</html>
